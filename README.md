@@ -26,7 +26,7 @@ Then, add the dependency:
     <dependency>
         <groupId>moe.vwinter.utils</groupId>
         <artifactId>menu</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>0.2</version>
     </dependency>
 </dependencies>
 ```
@@ -44,7 +44,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'moe.vwinter.utils:menu:1.0-SNAPSHOT'
+    implementation 'moe.vwinter.utils:menu:0.2'
 }
 ```
 
@@ -57,7 +57,7 @@ repositories {
 }
 
 dependencies {
-    implementation("moe.vwinter.utils:menu:1.0-SNAPSHOT")
+    implementation("moe.vwinter.utils:menu:0.2")
 }
 ```
 
