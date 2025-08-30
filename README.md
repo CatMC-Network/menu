@@ -4,66 +4,7 @@ A simple menu utility library for Spigot.
 
 ## Installation
 
-This project is hosted on GitHub Packages. To use it, you need to add the repository to your `pom.xml` or `build.gradle` file.
-
-### Maven
-
-Add the following repository to your `pom.xml`:
-
-```xml
-<repositories>
-    <repository>
-        <id>github</id>
-        <url>https://maven.pkg.github.com/CatMC-Network/menu</url>
-    </repository>
-</repositories>
-```
-
-Then, add the dependency:
-
-```xml
-<dependencies>
-    <dependency>
-        <groupId>moe.vwinter.utils</groupId>
-        <artifactId>menu</artifactId>
-        <version>0.2</version>
-    </dependency>
-</dependencies>
-```
-
-### Gradle
-
-Add the following to your `build.gradle` file:
-
-**Groovy DSL:**
-```groovy
-repositories {
-    maven {
-        url = uri("https://maven.pkg.github.com/CatMC-Network/menu")
-    }
-}
-
-dependencies {
-    implementation 'moe.vwinter.utils:menu:0.2'
-}
-```
-
-**Kotlin DSL:**
-```kotlin
-repositories {
-    maven {
-        url = uri("https://maven.pkg.github.com/CatMC-Network/menu")
-    }
-}
-
-dependencies {
-    implementation("moe.vwinter.utils:menu:0.2")
-}
-```
-
-## Requirements
-
-This library is built against Spigot 1.8.8. You must have this version or a compatible version in your project.
+For installation instructions, please see the [Installation](https://github.com/CatMC-Network/menu/wiki/Installation) page on our wiki.
 
 ## Usage
 
