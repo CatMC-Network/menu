@@ -5,13 +5,12 @@
     <groupId>moe.vwinter.utils</groupId>
     <artifactId>menu</artifactId>
     <packaging>jar</packaging>
-    <version>0.1</version>
+    <version>0.2</version>
     <name>menu</name>
 
     <repositories>
         <repository>
             <id>sigmagaming-repository-public</id>
-            <name>SigmaGaming Maven</name>
             <url>https://maven.sigmagaming.net/public</url>
         </repository>
     </repositories>
