@@ -14,7 +14,7 @@ Add the following repository to your `pom.xml`:
 <repositories>
     <repository>
         <id>github</id>
-        <url>https://maven.pkg.github.com/virtualWinter/menu</url>
+        <url>https://maven.pkg.github.com/CatMC-Network/menu</url>
     </repository>
 </repositories>
 ```
@@ -39,7 +39,7 @@ Add the following to your `build.gradle` file:
 ```groovy
 repositories {
     maven {
-        url = uri("https://maven.pkg.github.com/virtualWinter/menu")
+        url = uri("https://maven.pkg.github.com/CatMC-Network/menu")
     }
 }
 
@@ -52,7 +52,7 @@ dependencies {
 ```kotlin
 repositories {
     maven {
-        url = uri("https://maven.pkg.github.com/virtualWinter/menu")
+        url = uri("https://maven.pkg.github.com/CatMC-Network/menu")
     }
 }
 
